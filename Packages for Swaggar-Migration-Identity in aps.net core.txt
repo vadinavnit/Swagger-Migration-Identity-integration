@@ -1,0 +1,20 @@
+----------- Swaggar -------------
+
+PM> Swashbuckle.AspNetCore
+
+
+----------- Migration -------------
+
+
+PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+PM> Install-Package Microsoft.EntityFrameworkCore.Tools
+
+PM> add-migration CreateSchoolDB
+PM> update-database
+
+
+----------- Identity -------------
+
+
+PM> Microsoft.AspNetCore.Identity.EntityFrameworkCore;
