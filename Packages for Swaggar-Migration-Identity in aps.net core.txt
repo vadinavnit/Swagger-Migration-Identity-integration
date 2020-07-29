@@ -18,3 +18,14 @@ PM> update-database
 
 
 PM> Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+PM> Microsoft.AspNetCore.Identity.EntityFramework; --for entityframwork
+
+----------- JWT Token -------------
+
+System.IdentityModel.Tokens.Jwt
+
+
+----------- Cors -------------
+
+
+PM> Install-Package Microsoft.AspNet.WebApi.Cors -Version 5.2.7
