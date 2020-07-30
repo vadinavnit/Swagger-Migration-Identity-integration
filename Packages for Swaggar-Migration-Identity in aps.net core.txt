@@ -29,3 +29,16 @@ System.IdentityModel.Tokens.Jwt
 
 
 PM> Install-Package Microsoft.AspNet.WebApi.Cors -Version 5.2.7
+
+
+
+----------- MVC Identity Implimentation -------------
+
+Install-Package Microsoft.AspNet.EntityFramework
+Install-Package Microsoft.AspNet.Identity.EntityFramework
+Install-Package Microsoft.Owin.Host.SystemWeb
+Install-Package Microsoft.Owin
+
+IdentityConfig.cs
+Startup.cs
+Startup.Auth.cs
